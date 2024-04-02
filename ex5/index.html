@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Sixtyfour&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="star-container">
+      <div id="star-pattern"></div>
+      <div id="star-gradient-overlay"></div>
+    </div>
+    <div id="stripe-container">
+      <div id="stripe-pattern"></div>
+    </div>
+
+    <div id="modal-wrapper">
+      <div id="modal">
+        <div id="modal-background"></div>
+        <div id="modal-content">
+          <div id="modal-message">
+            <p class="sixty-four-font">Save progress?</p>
+          </div>
+          <div id="modal-actions">
+            <button type="button" class="modal-action">
+              <div class="modal-action-pattern"></div>
+              <div class="modal-action-fade"></div>
+              <span class="modal-action-text inter-font">Back</span>
+            </button>
+            <button type="button" class="modal-action">
+              <div class="modal-action-pattern"></div>
+              <div class="modal-action-fade"></div>
+              <span class="modal-action-text inter-font">OK</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="magic-mouse-container"></div>
+
+  <div id="cursor">
+    <img
+      src="assets/Arrow+-+Cursor.webp"
+      alt="Arrow Cursor"
+    />
+    <div id="cursor-eyes">
+      <div class="cursor-eye"></div>
+      <div class="cursor-eye"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+
+  <script src="https://kit.fontawesome.com/1ee8f271b9.js"></script>
+</body>
+</html>
